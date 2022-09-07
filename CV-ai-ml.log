@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.8.25)  25 AUG 2022 17:49
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.8.25)  25 AUG 2022 18:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/juli/Documents/Codebase/resume-latex/CV.tex
-(/home/juli/Documents/Codebase/resume-latex/CV.tex
+**/home/juli/Documents/Codebase/resume-latex/CV-ai-ml.tex
+(/home/juli/Documents/Codebase/resume-latex/CV-ai-ml.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -468,8 +468,8 @@ File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many o
 *** Reloading Xunicode for encoding 'TU' ***
 ) (/usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xunicode-extra.def
 File: xunicode-extra.def 2021/12/12 v3.8.8 extra definition for xunicode
-) (./CV.aux)
-\openout1 = `CV.aux'.
+) (./CV-ai-ml.aux)
+\openout1 = `CV-ai-ml.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
 LaTeX Font Info:    ... okay on input line 66.
@@ -606,9 +606,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 66.
 LaTeX Info: Redefining \pageref on input line 66.
 LaTeX Info: Redefining \nameref on input line 66.
- (./CV.out) (./CV.out)
+ (./CV-ai-ml.out) (./CV-ai-ml.out)
 \@outlinefile=\write3
-\openout3 = `CV.out'.
+\openout3 = `CV-ai-ml.out'.
 
  (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-english.def
 Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
@@ -621,17 +621,17 @@ Overfull \hbox (0.97662pt too wide) in paragraph at lines 96--96
 
 [1
 
-] (./CV.aux)
-Package rerunfilecheck Info: File `CV.out' has not changed.
+] (./CV-ai-ml.aux)
+Package rerunfilecheck Info: File `CV-ai-ml.out' has not changed.
 (rerunfilecheck)             Checksum: FA1E9E8DB33606DA356766AA0D4AE50C;675.
  ) 
 Here is how much of TeX's memory you used:
  19078 strings out of 477756
- 374003 string characters out of 5843518
- 736297 words of memory out of 5000000
+ 374105 string characters out of 5843518
+ 736327 words of memory out of 5000000
  39485 multiletter control sequences out of 15000+600000
  470377 words of font info for 56 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
- 75i,6n,81p,1083b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,6n,81p,1089b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on CV.xdv (1 page, 33948 bytes).
+Output written on CV-ai-ml.xdv (1 page, 33872 bytes).
