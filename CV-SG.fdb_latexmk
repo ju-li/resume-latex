@@ -1,11 +1,11 @@
 # Fdb version 3
-["xdvipdfmx"] 1663830838 "CV.xdv" "CV.pdf" "CV" 1663830838
-  "CV.xdv" 1663830838 33352 1aa91672681e12e038745b13be82289d "xelatex"
+["xdvipdfmx"] 1663831302 "CV-SG.xdv" "CV-SG.pdf" "CV-SG" 1663831302
+  "CV-SG.xdv" 1663831302 33580 026d6295de990f20233fd35e7090cfbb "xelatex"
   (generated)
-  "CV.pdf"
-["xelatex"] 1663830837 "/home/juli/Documents/Codebase/resume-latex/CV.tex" "CV.xdv" "CV" 1663830838
+  "CV-SG.pdf"
+["xelatex"] 1663831301 "/home/juli/Documents/Codebase/resume-latex/CV-SG.tex" "CV-SG.xdv" "CV-SG" 1663831302
   "/etc/texmf/web2c/texmf.cnf" 1661198625 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/juli/Documents/Codebase/resume-latex/CV.tex" 1663830808 6675 84f3e8319e7260f80e443eba3d99c87e ""
+  "/home/juli/Documents/Codebase/resume-latex/CV-SG.tex" 1663831301 6352 ac293b54e1e9c490e9bc8de45f86fae9 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -85,12 +85,12 @@
   "/usr/share/texmf/tex/latex/tipa/t3enc.def" 1615504778 26483 c461a68c34040cb0d96c43e86c012a6d ""
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1661463713 3720852 621937632e23e8004ee0134d230720ef ""
-  "CV-Preamble.tex" 1662572030 8926 037294fb5c463fa63f18ee0220a3d059 ""
-  "CV.aux" 1663830838 727 f582f5204c2fce6e8fa21ff2f88f5b49 "xelatex"
-  "CV.out" 1663830838 581 70911d73286b22bded01e204d2cbbd41 "xelatex"
-  "CV.tex" 1663830808 6675 84f3e8319e7260f80e443eba3d99c87e ""
+  "CV-Preamble.tex" 1663831263 8926 6edc7d68589dced489c3f088194fa95a ""
+  "CV-SG.aux" 1663831302 727 f582f5204c2fce6e8fa21ff2f88f5b49 "xelatex"
+  "CV-SG.out" 1663831302 693 51007d73888d1f212e98f7c2fb613368 "xelatex"
+  "CV-SG.tex" 1663831301 6352 ac293b54e1e9c490e9bc8de45f86fae9 ""
   (generated)
-  "CV.aux"
-  "CV.log"
-  "CV.out"
-  "CV.xdv"
+  "CV-SG.aux"
+  "CV-SG.log"
+  "CV-SG.out"
+  "CV-SG.xdv"

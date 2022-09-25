@@ -1,0 +1,215 @@
+% !TEX program = xelatex
+% !TEX encoding = UTF-8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SIMPLE-RESUME-CV
+%% <https://github.com/zachscrivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% INSTRUCTIONS FOR COMPILING THIS DOCUMENT ("CV.tex")
+%% TeX ---(XeLaTeX)---> PDF:
+%%
+%% Method 1: Use latexmk for fully automated document generation:
+%%   latexmk -xelatex "CV.tex"
+%%   (add the -pvc switch to automatically recompile on changes)
+%%
+%% Method 2: Use XeLaTeX directly:
+%%   xelatex "CV.tex"
+%%   (run multiple times to resolve cross-references if needed)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \documentclass[a4paper,10pt,oneside]{article}
+\documentclass[letterpaper,10pt,oneside]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% TYPESETTING OPTIONS.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\TypesetInNonStopMode}{1}
+\newcommand{\TypesetInDraftMode}{0}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{CV-Preamble.tex}
+
+% CV Info (to be customized).
+\newcommand{\CVAuthor}{Ju Li}
+
+% PDF settings and properties.
+\hypersetup{
+pdfauthor={\CVAuthor},
+%pdfcreator={XeLaTeX},
+pdfkeywords={},
+pdfpagemode={},
+unicode=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
+
+% Shorthand.
+\newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagenumbering{Alph} % for keeping hyperref happy
+\pagestyle{empty}
+\begin{document}
+
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
+
+\title{\CVAuthor}
+
+\begin{subtitle}
+69M Jalan Lim Tai See, Singapore 268475
+\par
+\href{mailto:ju.li@outlook.com}
+{ju.li@outlook.com}
+\,\SubBulletSymbol\,
++65\,8011\,2591
+\par 
+\href{https://www.linkedin.com/in/juli2/}{https://www.linkedin.com/in/juli2/}
+\end{subtitle}
+
+\begin{body}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% WORK EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Work\newline
+Experience}
+{Work Experience}
+{PDF:WorkExp}
+
+\href{https://krinu.com/}
+{\textbf{Krinu}},
+Boston, MA
+\GapNoBreak
+Product Strategy and Development Lead
+\hfill
+Jul 2020 -- Present
+\begin{flushleft}
+
+\BulletItem Led development of a sales enablement tool that connects messaging apps such as WhatsApp, Telegram, and iMessage to Customer Relationship Management (CRM) systems such as Hubspot and Salesforce. 
+
+\vspace{0.3em} \SubBulletItem Interviewed 200+ customers to identify ideal customer profile and their key painpoints. 
+
+\vspace{0.3em} \SubBulletItem Researched technical specifications and managed software development by interns and contractors.
+
+\vspace{0.75em}
+\BulletItem Developed business pitch decks, summarizing go-to-market strategy, opportunity size, and competitive analyses. Pitched to hundreds of VC and successfully raised \$150k USD from US and EU pre-seed funds. 
+
+\end{flushleft}
+
+
+\href{http://www.everquote.com/}
+{\textbf{EverQuote}},
+Cambridge, MA
+\GapNoBreak
+Manager, Strategy and Operations
+\hfill
+May 2018 -- Jun 2020
+\begin{flushleft}
+
+\BulletItem Strategic project leader
+\vspace{0.5em} \SubBulletItem Led go-to-market of EverQuote's new third-party marketplace product, multi-vertical bundled product, and telemarketing product. Coordinated pre and post launch efforts of sales, customer success and marketing teams to ensure timely execution and maximum realized revenues. Designed in-depth customized dashboards to enable leadership and individual contributors to monitor their/their team's contribution to launch successes. Launched products contributed 30\% of EverQuote's revenues in 2020.
+
+\vspace{0.5em} \SubBulletItem Led redesign and overhaul of B2B organization's sales and customer success commission models, transitioning from a per-unit-sold to a revenue-based commission model. Designed visualization, tracking and reporting tools to enable the sales and customer success teams to be successful under their new commission plans. Resulted in 200\%+ increase in Sales productivity and 60\% growth in revenue between 2019 and 2020.
+
+\vspace{0.75em}
+\BulletItem Leadership and mentoring
+
+\vspace{0.5em} \SubBulletItem Designed the team's intern and co-op hiring program. Hired and rapidly brought up to speed the team's intern/co-op/junior hires. Significantly grew team's operational capacity without adding to opex. Team did not add to headcount but effectively supported Sales and Customer Success organizations that had doubled in size.
+
+\end{flushleft}
+
+\vspace{0.75em}
+\href{http://www.analysisgroup.com/}
+{\textbf{Analysis Group}},
+Boston, MA
+\GapNoBreak
+Senior Analyst,
+Economics Consulting
+\hfill
+Sep 2014 --
+Apr 2018
+\begin{flushleft}
+
+\BulletItem Led and mentored team of Analysts in data cleaning, data analysis, and writing of expert reports. Evidence presented in the expert reports helped clients win multiple billion-dollar litigation cases.
+
+\end{flushleft}
+
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+
+\section
+{Education}
+{Education}
+{PDF:Education}
+
+\href{https://www.utoronto.ca/}
+{\textbf{University of Toronto}}
+
+\GapNoBreak
+\BulletItem
+Honours Bachelor of Science (B.Sc.) in Mathematics and Economics (GPA: 3.88 / 4.00)
+\hfill
+2009 -- 2014
+
+%%%%%%%%%%%%%%%
+%% LANGUAGES %%
+%%%%%%%%%%%%%%%
+
+\section
+{Languages}
+{Languages}
+{PDF:Languages}
+
+English (Fluent), Mandarin Chinese (Intermediate)
+
+%%%%%%%%%%%%
+%% SKILLS %%
+%%%%%%%%%%%%
+
+\section
+{Skills}
+{Skills}
+{PDF:Skills}
+
+Excel, Statistical Tools (Stata, SAS, R), Programming Languages (VBA, Python, Javascript), Databases (MySQL, PostgreSQL, DynamoDB), CRMs (Salesforce, Hubspot), Dashboarding Tools (Looker, Tableau)
+
+%%%%%%%%%%%%%%%
+%% INTERESTS %%
+%%%%%%%%%%%%%%%
+
+\section
+{Interests}
+{Interests}
+{PDF:Interests}
+
+Poker, musicals, collecting old vinyl records, stand-up comedy
+
+\section
+{Nationality}
+{Nationality}
+{PDF:Nationality}
+
+Singapore Citizen 
+
+\end{body}
+
+\end{document}
+

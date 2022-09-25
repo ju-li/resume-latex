@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.8.25)  22 SEP 2022 15:13
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.8.25)  22 SEP 2022 15:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/home/juli/Documents/Codebase/resume-latex/CV.tex
-(/home/juli/Documents/Codebase/resume-latex/CV.tex
+**/home/juli/Documents/Codebase/resume-latex/CV-SG.tex
+(/home/juli/Documents/Codebase/resume-latex/CV-SG.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -357,8 +357,8 @@ Package fontspec Info: Font family 'Tinos-Regular.ttf(0)' created for font
 Package hyperref Info: Option `unicode' set `true' on input line 55.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 55.
 Package hyperref Info: Option `breaklinks' set `true' on input line 55.
- (./CV.aux)
-\openout1 = `CV.aux'.
+ (./CV-SG.aux)
+\openout1 = `CV-SG.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
 LaTeX Font Info:    ... okay on input line 65.
@@ -400,11 +400,11 @@ LaTeX Font Info:    ... okay on input line 65.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includefoot 
 * h-part:(L,W,R)=(36.135pt, 527.57123pt, 50.58878pt)
-* v-part:(T,H,B)=(43.36243pt, 719.08629pt, 32.52127pt)
+* v-part:(T,H,B)=(43.36243pt, 740.7675pt, 10.84006pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
 * \textwidth=527.57123pt
-* \textheight=689.08629pt
+* \textheight=710.7675pt
 * \oddsidemargin=-36.135pt
 * \evensidemargin=-36.135pt
 * \topmargin=-28.90756pt
@@ -438,9 +438,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 65.
 LaTeX Info: Redefining \pageref on input line 65.
 LaTeX Info: Redefining \nameref on input line 65.
- (./CV.out) (./CV.out)
+ (./CV-SG.out) (./CV-SG.out)
 \@outlinefile=\write3
-\openout3 = `CV.out'.
+\openout3 = `CV-SG.out'.
 
  (/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-english.def
 Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
@@ -509,19 +509,24 @@ Overfull \hbox (0.97662pt too wide) in paragraph at lines 94--94
 \TU/Tinos-Regular.ttf(0)/b/n/9 EXPERIENCE| 
  []
 
+
+Overfull \hbox (5.81061pt too wide) in paragraph at lines 208--208
+[]|\TU/Tinos-Regular.ttf(0)/b/n/9 NATIONALITY| 
+ []
+
 [1
 
-] (./CV.aux)
-Package rerunfilecheck Info: File `CV.out' has not changed.
-(rerunfilecheck)             Checksum: 70911D73286B22BDED01E204D2CBBD41;581.
+] (./CV-SG.aux)
+Package rerunfilecheck Info: File `CV-SG.out' has not changed.
+(rerunfilecheck)             Checksum: 51007D73888D1F212E98F7C2FB613368;693.
  ) 
 Here is how much of TeX's memory you used:
  15673 strings out of 477756
- 297395 string characters out of 5843518
- 652850 words of memory out of 5000000
+ 297446 string characters out of 5843518
+ 653989 words of memory out of 5000000
  36117 multiletter control sequences out of 15000+600000
  469779 words of font info for 49 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
- 78i,6n,80p,1083b,428s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 78i,6n,80p,1086b,428s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on CV.xdv (1 page, 33352 bytes).
+Output written on CV-SG.xdv (1 page, 33580 bytes).
