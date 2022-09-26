@@ -1,11 +1,11 @@
 # Fdb version 3
-["xdvipdfmx"] 1663120523 "CV.xdv" "CV.pdf" "CV" 1663120523
-  "CV.xdv" 1663120523 29132 63ca8ad6d21bd2ed94bcb04cf4e40373 "xelatex"
+["xdvipdfmx"] 1664089630 "CV.xdv" "CV.pdf" "CV" 1664089630
+  "CV.xdv" 1664089630 31076 0c2051ecada3c5ee202b3b466e3d34c0 "xelatex"
   (generated)
   "CV.pdf"
-["xelatex"] 1663120523 "/home/juli/Documents/Codebase/resume-latex/CV.tex" "CV.xdv" "CV" 1663120523
+["xelatex"] 1664089629 "/home/juli/Documents/Codebase/resume-latex/CV.tex" "CV.xdv" "CV" 1664089630
   "/etc/texmf/web2c/texmf.cnf" 1661198625 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/juli/Documents/Codebase/resume-latex/CV.tex" 1663120522 6322 4710c66101f3a523dfa69275a3bd44f3 ""
+  "/home/juli/Documents/Codebase/resume-latex/CV.tex" 1664089629 6126 861cc70a35a087fdee29d39d4b06618c ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
@@ -85,10 +85,10 @@
   "/usr/share/texmf/tex/latex/tipa/t3enc.def" 1615504778 26483 c461a68c34040cb0d96c43e86c012a6d ""
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1661463713 3720852 621937632e23e8004ee0134d230720ef ""
-  "CV-Preamble.tex" 1662572030 8926 037294fb5c463fa63f18ee0220a3d059 ""
-  "CV.aux" 1663120523 727 f582f5204c2fce6e8fa21ff2f88f5b49 "xelatex"
-  "CV.out" 1663120523 581 70911d73286b22bded01e204d2cbbd41 "xelatex"
-  "CV.tex" 1663120522 6322 4710c66101f3a523dfa69275a3bd44f3 ""
+  "CV-Preamble.tex" 1664067968 8926 037294fb5c463fa63f18ee0220a3d059 ""
+  "CV.aux" 1664089630 727 f582f5204c2fce6e8fa21ff2f88f5b49 "xelatex"
+  "CV.out" 1664089630 581 70911d73286b22bded01e204d2cbbd41 "xelatex"
+  "CV.tex" 1664089629 6126 861cc70a35a087fdee29d39d4b06618c ""
   (generated)
   "CV.aux"
   "CV.log"
