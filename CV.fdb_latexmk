@@ -1,11 +1,11 @@
 # Fdb version 3
-["xdvipdfmx"] 1665373959 "CV.xdv" "CV.pdf" "CV" 1665373959
-  "CV.xdv" 1665373959 31484 5f561856eef47c6e4d1308dc56486834 "xelatex"
+["xdvipdfmx"] 1665375070 "CV.xdv" "CV.pdf" "CV" 1665375070
+  "CV.xdv" 1665375069 31476 237d9579dd2f5bdf8eb9fe0fd9fb100d "xelatex"
   (generated)
   "CV.pdf"
-["xelatex"] 1665373957 "/home/juli/Documents/Codebase/resume-latex/CV.tex" "CV.xdv" "CV" 1665373959
+["xelatex"] 1665375068 "/home/juli/Documents/Codebase/resume-latex/CV.tex" "CV.xdv" "CV" 1665375070
   "/etc/texmf/web2c/texmf.cnf" 1661198625 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/juli/Documents/Codebase/resume-latex/CV.tex" 1665373955 6156 9ec3b02a4b0e5e43ce5b276816f4b75f ""
+  "/home/juli/Documents/Codebase/resume-latex/CV.tex" 1665375067 6155 7e73944937e6a941334f041a62549ee4 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -96,9 +96,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1661463713 3720852 621937632e23e8004ee0134d230720ef ""
   "CV-Preamble.tex" 1665373619 8926 8b565f3245d1b03f701451ca3fa488e8 ""
-  "CV.aux" 1665373959 727 f582f5204c2fce6e8fa21ff2f88f5b49 "xelatex"
-  "CV.out" 1665373959 675 fa1e9e8db33606da356766aa0d4ae50c "xelatex"
-  "CV.tex" 1665373955 6156 9ec3b02a4b0e5e43ce5b276816f4b75f ""
+  "CV.aux" 1665375069 727 f582f5204c2fce6e8fa21ff2f88f5b49 "xelatex"
+  "CV.out" 1665375069 675 fa1e9e8db33606da356766aa0d4ae50c "xelatex"
+  "CV.tex" 1665375067 6155 7e73944937e6a941334f041a62549ee4 ""
   (generated)
   "CV.aux"
   "CV.log"
