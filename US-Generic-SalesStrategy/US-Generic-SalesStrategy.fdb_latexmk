@@ -1,11 +1,11 @@
 # Fdb version 3
-["xdvipdfmx"] 1672329136 "US-Generic-Product.xdv" "US-Generic-Product.pdf" "US-Generic-Product" 1672329136
-  "US-Generic-Product.xdv" 1672329136 31044 9ac933d19e91c0a920770e14638ae5f5 "xelatex"
+["xdvipdfmx"] 1672339240 "US-Generic-SalesStrategy.xdv" "US-Generic-SalesStrategy.pdf" "US-Generic-SalesStrategy" 1672339240
+  "US-Generic-SalesStrategy.xdv" 1672339240 31248 a653b2190ce88785cf50d1487d7a0908 "xelatex"
   (generated)
-  "US-Generic-Product.pdf"
-["xelatex"] 1672329135 "/home/juli/Documents/Codebase/resume-latex/US-Generic-Product/US-Generic-Product.tex" "US-Generic-Product.xdv" "US-Generic-Product" 1672329136
+  "US-Generic-SalesStrategy.pdf"
+["xelatex"] 1672339239 "/home/juli/Documents/Codebase/resume-latex/US-Generic-SalesStrategy/US-Generic-SalesStrategy.tex" "US-Generic-SalesStrategy.xdv" "US-Generic-SalesStrategy" 1672339240
   "/etc/texmf/web2c/texmf.cnf" 1661198625 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/juli/Documents/Codebase/resume-latex/US-Generic-Product/US-Generic-Product.tex" 1672329134 6155 2dadee38cff33dd0ded8e9770a3fb7ee ""
+  "/home/juli/Documents/Codebase/resume-latex/US-Generic-SalesStrategy/US-Generic-SalesStrategy.tex" 1672339239 6154 d1f97d83a272298e70f06c7ff0eccc36 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -95,12 +95,12 @@
   "/usr/share/texmf/tex/latex/tipa/t3enc.def" 1615504778 26483 c461a68c34040cb0d96c43e86c012a6d ""
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1661463713 3720852 621937632e23e8004ee0134d230720ef ""
-  "CV-Preamble.tex" 1672175152 8926 8b565f3245d1b03f701451ca3fa488e8 ""
-  "US-Generic-Product.aux" 1672329136 727 f582f5204c2fce6e8fa21ff2f88f5b49 "xelatex"
-  "US-Generic-Product.out" 1672329136 581 70911d73286b22bded01e204d2cbbd41 "xelatex"
-  "US-Generic-Product.tex" 1672329134 6155 2dadee38cff33dd0ded8e9770a3fb7ee ""
+  "CV-Preamble.tex" 1672327649 8926 8b565f3245d1b03f701451ca3fa488e8 ""
+  "US-Generic-SalesStrategy.aux" 1672339240 727 f582f5204c2fce6e8fa21ff2f88f5b49 "xelatex"
+  "US-Generic-SalesStrategy.out" 1672339240 581 70911d73286b22bded01e204d2cbbd41 "xelatex"
+  "US-Generic-SalesStrategy.tex" 1672339239 6154 d1f97d83a272298e70f06c7ff0eccc36 ""
   (generated)
-  "US-Generic-Product.aux"
-  "US-Generic-Product.log"
-  "US-Generic-Product.out"
-  "US-Generic-Product.xdv"
+  "US-Generic-SalesStrategy.aux"
+  "US-Generic-SalesStrategy.log"
+  "US-Generic-SalesStrategy.out"
+  "US-Generic-SalesStrategy.xdv"
