@@ -1,0 +1,210 @@
+% !TEX program = xelatex
+% !TEX encoding = UTF-8
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% SIMPLE-RESUME-CV
+%% <https://github.com/zachscrivena/simple-resume-cv>
+%% This is free and unencumbered software released into the
+%% public domain; see <http://unlicense.org> for details.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% INSTRUCTIONS FOR COMPILING THIS DOCUMENT ("CV.tex")
+%% TeX ---(XeLaTeX)---> PDF:
+%%
+%% Method 1: Use latexmk for fully automated document generation:
+%%   latexmk -xelatex "CV.tex"
+%%   (add the -pvc switch to automatically recompile on changes)
+%%
+%% Method 2: Use XeLaTeX directly:
+%%   xelatex "CV.tex"
+%%   (run multiple times to resolve cross-references if needed)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \documentclass[a4paper,10pt,oneside]{article}
+\documentclass[letterpaper,10pt,oneside]{article}
+\usepackage{xeCJK}%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% TYPESETTING OPTIONS.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\TypesetInNonStopMode}{1}
+\newcommand{\TypesetInDraftMode}{0}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% PREAMBLE.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{CV-Preamble.tex}
+
+% CV Info (to be customized).
+\newcommand{\CVAuthor}{Li Ju (李巨)}
+
+% PDF settings and properties.
+\hypersetup{
+pdfauthor={\CVAuthor},
+%pdfcreator={XeLaTeX},
+pdfkeywords={},
+pdfpagemode={},
+unicode=true,
+bookmarksopen=true,
+pdfstartview=FitH,
+pdfpagelayout=OneColumn,
+pdfpagemode=UseOutlines,
+hidelinks,
+breaklinks}
+
+% Shorthand.
+\newcommand{\CodeCommand}[1]{\mbox{\textbf{\textbackslash{#1}}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ACTUAL DOCUMENT.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagenumbering{Alph} % for keeping hyperref happy
+\pagestyle{empty}
+\begin{document}
+
+%%%%%%%%%%%%%%%
+% TITLE BLOCK %
+%%%%%%%%%%%%%%%
+
+\title{\CVAuthor}
+
+\begin{subtitle}
+69M Jalan Lim Tai See, Singapore 268475
+\par
+\href{mailto:ju.li@outlook.com}
+{ju.li@outlook.com}
+\,\SubBulletSymbol\,
++65\,8011\,2591
+\par 
+\href{https://www.linkedin.com/in/juli2/}{https://www.linkedin.com/in/juli2/}
+\end{subtitle}
+
+\begin{body}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% WORK EXPERIENCE %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section
+{Work\newline
+Experience}
+{Work Experience}
+{PDF:WorkExp}
+
+\href{https://krinu.com/}
+{\textbf{Krinu}},
+Boston, MA
+\GapNoBreak
+Product Strategy and Development Lead
+\hfill
+Jul 2020 -- Present
+\begin{flushleft}
+
+\BulletItem Led development of Krinu, a SaaS sales enablement tool that connects messaging apps such as WhatsApp, Telegram, and iMessage to Customer Relationship Management (CRM) systems such as Hubspot and Salesforce. 
+
+\vspace{0.3em} \SubBulletItem Designed unified platform for integrating with CRMs and messaging apps. Researched each systems' technical specifications to identify incompatibilities. Designed workarounds to the incompatibilities to deliver consistent feature set across all integrations. 
+
+\vspace{0.75em}
+\BulletItem Raised \$150k USD from pre-seed VCs. Developed pitch deck and financial projections using customer and product data extracted from internal SQL databases. 
+
+\end{flushleft}
+
+
+\href{http://www.everquote.com/}
+{\textbf{EverQuote}},
+Cambridge, MA
+\GapNoBreak
+Manager, Sales Strategy and Operations
+\hfill
+May 2018 -- Jun 2020
+\begin{flushleft}
+
+
+\BulletItem Led re-organization of B2B organization's sales and customer success teams. Completely revamped the hiring, commission, and operational strategy that resulted in 200\%+ increase in Sales productivity and 60\% growth in revenue between 2019 and 2020.
+
+\vspace{0.5em} \SubBulletItem 	Negotiated and oversaw optimization of commission models, transitioning the teams from a per-unit-sold to a revenue-based commission model. 
+
+\vspace{0.5em} \SubBulletItem 	Designed visualization, tracking and reporting tools to enable individual contributors and managers to succeed under the new commission plans. 
+
+\vspace{0.5em} \SubBulletItem 	Developed Unit Economics Model for each B2B territory. This model quantified the performance and opportunity for growth for each B2B territory, laying the groundwork for EverQuote's B2B re-organization and growth in 2020.
+
+\vspace{0.75em}
+\BulletItem Hired, trained, and managed the team's interns. 
+
+\vspace{0.5em} \SubBulletItem Directed multiple high-impact intern projects that were deployed to production, such as an automated system for generating customer performance reports.
+
+\vspace{0.5em} \SubBulletItem Designed onboarding curriculum and playbook that enabled new interns to contribute within 2 weeks. 
+
+\end{flushleft}
+
+\vspace{0.75em}
+\href{http://www.analysisgroup.com/}
+{\textbf{Analysis Group}},
+Boston, MA
+\GapNoBreak
+Senior Analyst,
+Economics Consulting
+\hfill
+Sep 2014 --
+Apr 2018
+\begin{flushleft}
+
+\BulletItem Led and mentored team of Analysts in data cleaning, data analysis, and writing of expert reports. Evidence presented in the expert reports helped clients win multiple billion-dollar litigation cases.
+
+\end{flushleft}
+
+%%%%%%%%%%%%%%%
+%% EDUCATION %%
+%%%%%%%%%%%%%%%
+
+\section
+{Education}
+{Education}
+{PDF:Education}
+
+\href{https://www.utoronto.ca/}
+{\textbf{University of Toronto}}
+
+\GapNoBreak
+\BulletItem
+Honours Bachelor of Science (B.Sc.) in Mathematics and Economics (GPA: 3.88 / 4.00)
+\hfill
+2009 -- 2014
+
+%%%%%%%%%%%%%%%
+%% LANGUAGES %%
+%%%%%%%%%%%%%%%
+
+\section
+{Languages}
+{Languages}
+{PDF:Languages}
+
+English (Fluent), Mandarin Chinese (Intermediate)
+
+%%%%%%%%%%%%
+%% SKILLS %%
+%%%%%%%%%%%%
+
+\section
+{Skills}
+{Skills}
+{PDF:Skills}
+
+Excel, Databases (MySQL, PostgreSQL, BigQuery), Business Intelligence Tools (Looker, Tableau), CRMs (Salesforce, Hubspot), Programming Languages (VBA, Python, Javascript), Statistical Tools (Stata, SAS, R)
+
+%%%%%%%%%%%%%%%
+%% INTERESTS %%
+%%%%%%%%%%%%%%%
+
+\section
+{Interests}
+{Interests}
+{PDF:Interests}
+
+Poker, musicals, making dumplings, stand-up comedy
+
+\end{body}
+
+\end{document}
