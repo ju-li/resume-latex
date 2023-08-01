@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2022.8.25)  9 JAN 2023 12:13
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2022/dev/Debian) (preloaded format=xelatex 2023.6.27)  12 JUL 2023 23:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -615,7 +615,7 @@ Invalid UTF-8 byte or sequence at line 10 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 22 replaced by U+FFFD.
 File: fc-english.def 2016/01/12
 )
-Overfull \hbox (0.97662pt too wide) in paragraph at lines 94--94
+Overfull \hbox (0.97662pt too wide) in paragraph at lines 93--93
 \TU/Tinos-Regular.ttf(0)/b/n/9 EXPERIENCE| 
  []
 
@@ -628,10 +628,10 @@ Package rerunfilecheck Info: File `US-Generic-Accurate.out' has not changed.
 Here is how much of TeX's memory you used:
  19074 strings out of 477756
  374192 string characters out of 5843518
- 735293 words of memory out of 5000000
+ 737293 words of memory out of 5000000
  39483 multiletter control sequences out of 15000+600000
  470369 words of font info for 55 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
  75i,6n,81p,1120b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on US-Generic-Accurate.xdv (1 page, 31080 bytes).
+Output written on US-Generic-Accurate.xdv (1 page, 33580 bytes).
